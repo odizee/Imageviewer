@@ -29,7 +29,7 @@ export const Home = () => {
             <SRLWrapper>
           <div className='images'>
             {images.map(image => (
-              <UnsplashImage url={image.urls.regular} key={image.id} />
+              <UnsplashImage url={image.urls.regular} key={image?.id} />
               ))}
           </div>
               </SRLWrapper>
